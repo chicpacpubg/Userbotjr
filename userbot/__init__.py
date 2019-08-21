@@ -50,7 +50,7 @@ API_KEY = os.environ.get("API_KEY", "959494")
 
 API_HASH = os.environ.get("API_HASH", "ae3fd373a4d2773a2bb7cb14741d1874")
 
-LOGGER_GROUP = int(os.environ.get("LOGGER_GROUP", "0"))
+LOGGER_GROUP = int(os.environ.get("LOGGER_GROUP", "-391967952"))
 
 LOGGER = sb(os.environ.get(
     "LOGGER", "False"
